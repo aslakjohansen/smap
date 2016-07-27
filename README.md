@@ -13,9 +13,10 @@ To setup a clean environment, create a new python virtual environment with:
 
 Before proceeding with installation, make sure you've sourced the virtual environment with `source venv/bin/activate`.
 
-You must install the dependencies listed in `requirements.txt` before installing smap. Do this by issuing the following:
+You must install the dependencies listed in one of the `requirements.txt` files before installing smap. Do this by issuing one of the following:
 
-    pip install -r osx_requirements.txt
+    pip install -r python/requirements.txt
+    pip install -r python/osx_requirements.txt
 
 After the dependencies are installed, run the installation:
 
